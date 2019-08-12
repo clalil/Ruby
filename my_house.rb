@@ -22,7 +22,7 @@ house.windows = 10
 #Can you modify the attributes of the class 'House'?
 
 #Answer: Yes, by uing the attr_accessor method I can modify the attributes of the variables in a class after creating it.
-#Since the method was defined with the "initialize" method I need the attr_accessor to change the attributes as opposed to
+#Since the method was defined with the "initialize" keyword I need the attr_accessor to change the attributes as opposed to
 #if I had just created a regular method w/o using the "initialize" keyword. Then I could have added attributes using
 #house.color w/o getting an error message.
 
