@@ -13,6 +13,8 @@ _Follow the instructions provided by you when you run each of the following buil
 To **play** with your dog type in the following command:  
 >dog.play  
 
+**Warning: Your dog might never want to stop playing with you. To escape playing catch - press any key!**
+
 To **feed** your dog a treat type in the following command:  
 >dog.feed
 
