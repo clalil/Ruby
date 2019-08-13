@@ -22,11 +22,26 @@ class Dog
                 puts "#{name} is now playing catch with you!"
             when 'n'
                 puts "All work and no play makes #{name} a dull dog."
+            else puts "Invalid character! #{name} bit you!"
                 break
             end
         end
     end
 
-
+    def feed
+        loop do
+            puts "Would you like to give #{name} a treat? Press [y] to give #{name} a treat. Press [n] to give him a pet instead."
+            response = gets.chomp
+            case response
+            when 'y'
+                puts "You gave #{name} a treat. #{name} wags its tail."
+            break
+            when 'n'
+                puts "You gave #{name} a pet. #{name} growls at you."
+            break
+            else puts "Invalid character! #{name} bit you!"
+                break
+            end
+        end
+    end
 end
-
