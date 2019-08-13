@@ -6,3 +6,13 @@ end
 
 #Write a program that uses a hash to store a list of movie titles with the year they came out. 
 #Then use the puts command to make your program print out the year of each movie to the screen.
+movie_1 = {title: "Superman", year: 1965}
+movie_2 = {title: "Inception", year: 2004}
+movie_3 = {title: "Tomb Raider", year: 2013}
+movie_4 = {title: "Forrest Gump", year: 2001}
+movie_5 = {title: "Flintstones", year: 1981}
+
+movies = [movie_1, movie_2, movie_3, movie_4, movie_5]
+
+movies.each do |movie| puts ("The movie #{movie[:title]} was produced in the year #{movie[:year]}.") end
+
