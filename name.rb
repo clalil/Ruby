@@ -5,3 +5,30 @@ def type_name
     name = gets.chomp
     puts = "Your name is: #{name}. What a beautiful name!"
 end
+
+#Add another section that prints the name of the user 10 times. 
+#You must do this without explicitly writing the puts method 10 times in a row. 
+#Hint: you can use the times method to do something repeatedly.
+
+def your_name
+
+    puts "Hello! Please enter your full name:"
+    full_name = gets.chomp
+    10.times do |username|
+    puts "Your full name is #{full_name}."
+    end
+end
+
+#Modify code again so that it first asks the user for their first name, 
+#saves it into a variable, and then does the same for the last name. Then outputs their full name all at once.
+
+def full_name
+
+    puts "Hello! Please enter your first name:"
+    first_name = gets.chomp
+    puts "Please enter your second name:"
+    last_name = gets.chomp
+    1.times do |fullname|
+    puts "Your full name is #{first_name} #{last_name}."
+    end
+end
