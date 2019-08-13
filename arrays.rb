@@ -18,3 +18,45 @@ def arrays
         end
     end
 end
+
+#How do you return the word "example" from the following array? 
+#arr = [["test", "hello", "world"], ["example", "mem"]]
+
+#Answer: arr.[1][0]
+
+#What does each method return in the following example?
+#arr = [15, 7, 18, 5, 12, 8, 5, 1]
+#1. arr.index(5)
+#2. arr.index[5]
+#3. arr[5]
+
+#Answer: 
+#1. The position of "5" in the array; which is 3.
+#2. Returns an error saying: undefined method [].
+#3. Number 8 in the array.
+
+#What is the value of a, b, and c in the following program?
+#string = "Welcome to America!"
+#a = string[6]
+#b = string[11]
+#c = string[19]
+
+#Answer:
+#a: "e"
+#b: "A"
+#c: "nil"
+
+#You run the following code...
+#names = ['bob', 'joe', 'susan', 'margareth']
+#names['margareth'] = 'jody'
+#...and get an error message.
+#What is the problem and how can it be fixed?
+
+#Answer: The coder seem to expect to change the name 'margareth' into 'jody'.
+#The array_name['object'] is used to identify the object's position inside of an array.
+#To replace the object 'Jody' with 'Margareth' inside of the array, one must instead use:
+# names.pop or names.delete_at(3) to remove 'Margareth' and then names.push("Jody") or names << "Jody" to add Jody to the end of the array.
+
+
+
+
