@@ -19,6 +19,20 @@ def arrays
     end
 end
 
+#What will the following programs return? What is value of arr after each? 
+#Answer: .product Returns an array of all combinations of elements from all arrays.
+#arr = ["b", "a"]
+#arr = arr.product(Array(1..3))
+# => [["b", 1], ["b", 2], ["b", 3], ["a", 1], ["a", 2], ["a", 3]] 
+#arr.first.delete(arr.first.last) = i.e. shows first number of last array (former ["a", 1])
+# => 1 
+
+#arr = ["b", "a"]
+#arr = arr.product([Array(1..3)])
+# => [["b", [1, 2, 3]], ["a", [1, 2, 3]]] 
+#arr.first.delete(arr.first.last) = deletes first array that was created
+# => [1, 2, 3] i.e. its showing content of former array "a"
+
 #How do you return the word "example" from the following array? 
 #arr = [["test", "hello", "world"], ["example", "mem"]]
 
