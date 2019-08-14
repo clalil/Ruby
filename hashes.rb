@@ -74,3 +74,15 @@
 
 #     puts "Prints the name of #{person[:name]}."
 
+#What method could you use to find out if a Hash contains a specific value in it? Write a program to demonstrate this use.
+
+#person.has_value?("Bob")
+
+#What's the difference between the two hashes that were created?
+#x = "hi there"
+#my_hash = {x: "some value"}
+#my_hash2 = {x => "some value"}
+
+#Answer: The first one is a regular hash (named my_hash) where "x" is they key and "some value" its value.
+#The second one is a hash (my_hash) with the key "x" assigned to "some value" using a "hash rocket".
+#They are pretty much the same thing except for that the "hash rocket" is old Ruby syntax.
