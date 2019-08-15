@@ -32,4 +32,5 @@ end
 
 numbers(1000)
 
-
+#Rewrite your program from exercise 3 using a case statement. 
+#Wrap this new case statement in a method and make sure it still works.
