@@ -9,10 +9,10 @@ family = {
     aunts: ["mary", "sally", "susan"]
 }
 
-brothers = family.select{|k| k["brothers"]}
-sisters = family.select{|k| k["sisters"]}
-aunts = family.select{|k| k["aunts"]}
-uncles = family.select{|k| k["uncles"]}
+brothers = family.select{|member| member["brothers"]}
+sisters = family.select{|member| member["sisters"]}
+aunts = family.select{|member| member["aunts"]}
+uncles = family.select{|member| member["uncles"]}
 #The seclect helper method access the hash, so the : is not needed in the [:uncle].
 
 puts immediate_family = [brothers, sisters]
@@ -20,6 +20,7 @@ puts immediate_family = [brothers, sisters]
 #Look at Ruby's merge method. Notice that it has two versions. 
 #What is the difference between merge and merge!? 
 #Write a program that uses both and illustrate the differences.
+#Important! Code example below for the merge method below is just from ruby resource, not my own.
 
 h1 = {
     a: 100, 
