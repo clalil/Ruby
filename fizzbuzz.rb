@@ -17,12 +17,12 @@ def fizzBuzz(num)
             puts num
         end
 end
-fizzBuzz(68)
+fizzBuzz(15)
 
 def fizzBuzz
     array = [*1..100]
-    array.each { |x| puts x
-        if x % 15 == 0
+    array.each { |x|
+        if ((x % 3) == 0) && ((x % 5) == 0)
         puts "FizBuzz"
         elsif x % 5 == 0
         puts "Buzz"
@@ -30,8 +30,8 @@ def fizzBuzz
         puts "Fizz"
         else 
         puts x
-    end
-}
+        end
+    }
 end
 
 fizzBuzz
