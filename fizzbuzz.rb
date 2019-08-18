@@ -21,15 +21,15 @@ fizzBuzz(15)
 
 def fizzBuzz
     array = [*1..100]
-    array.each { |x|
-        if ((x % 3) == 0) && ((x % 5) == 0)
+    array.each { |num|
+        if ((num % 3) == 0) && ((num % 5) == 0)
         puts "FizBuzz"
-        elsif x % 5 == 0
+        elsif num % 5 == 0
         puts "Buzz"
-        elsif x % 3 == 0
+        elsif num % 3 == 0
         puts "Fizz"
         else 
-        puts x
+        puts num
         end
     }
 end
