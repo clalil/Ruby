@@ -20,7 +20,6 @@ immediate_family = [brothers, sisters]
 #Look at Ruby's merge method. Notice that it has two versions. 
 #What is the difference between merge and merge!? 
 #Write a program that uses both and illustrate the differences.
-#Important! Code example below for the merge method below is just from ruby resource, not my own.
 
 h1 = {
     a: 2, 
@@ -62,7 +61,7 @@ family.each do |keys, k1, k2, k3|
   puts "#{keys}."
 end
 
-# #Then write a program that does the same thing except printing the values.
+#Then write a program that does the same thing except printing the values.
 
 family.each do |keys, k1, k2, k3|
     puts "#{k1..k3}."
@@ -80,7 +79,7 @@ person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
 
     puts "Prints the name of #{person[:name]}."
 
-#What method could you use to find out if a Hash contains a specific value in it? Write a program to demonstrate this use.
+#What method could you use to find out if a Hash contains a specific value in it?
 
 person.has_value?("Bob")
 
