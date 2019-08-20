@@ -1,3 +1,4 @@
+#Below is just irb output from using different helper methods.
 13:10 $ irb
 2.6.3 :001 > name = "Thomas"
  => "Thomas" 
