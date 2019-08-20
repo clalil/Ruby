@@ -1,3 +1,5 @@
+#Create a Dog class and give your dog attributes and methods.
+
 class Dog
     attr_accessor :breed, :name
     def initialize (breed = 'golden retriver', name = 'Bobby')
