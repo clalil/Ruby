@@ -9,15 +9,15 @@
 #Version 1: A program that takes number (no exceptions).
 
 def fizzBuzz(num)
-        if num % 15 == 0
-            puts "FizBuzz"
-        elsif num % 5 == 0
-            puts "Buzz"
-        elsif num % 3 == 0
-            puts "Fizz"
-        else 
-            puts num
-        end
+    if num % 15 == 0
+        puts "FizBuzz"
+    elsif num % 5 == 0
+        puts "Buzz"
+    elsif num % 3 == 0
+        puts "Fizz"
+    else 
+        puts num
+    end
 end
 fizzBuzz(12)
 
