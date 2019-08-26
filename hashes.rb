@@ -25,10 +25,9 @@ immediate_family = [brothers, sisters]
 siblings = []
 relatives = []
 family.select do |person|
-if (person.length < 7)
-  puts relatives << person
-elsif (person.length > 6)
-puts siblings << person
+if person.length < 7
+  relatives << person
+else siblings << person
 end
 end
 
