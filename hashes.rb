@@ -9,6 +9,10 @@ family = {
     aunts: ["mary", "sally", "susan"]
 }
 
+family.select do |key, value|
+  value == 'uncles' && 'aunts'
+end
+
 brothers = family.select{|member| member["brothers"]}
 sisters = family.select{|member| member["sisters"]}
 aunts = family.select{|member| member["aunts"]}
@@ -16,6 +20,17 @@ uncles = family.select{|member| member["uncles"]}
 #The seclect helper method access the hash, so the : is not needed in the [:uncle].
 
 immediate_family = [brothers, sisters]
+
+#An additional program using the select method to gather immediate family members based on the length of the original key.
+siblings = []
+relatives = []
+family.select do |person|
+if (person.length < 7)
+  puts relatives << person
+elsif (person.length > 6)
+puts siblings << person
+end
+end
 
 #Look at Ruby's merge method. Notice that it has two versions. 
 #What is the difference between merge and merge!? 
