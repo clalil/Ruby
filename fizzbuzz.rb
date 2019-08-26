@@ -21,8 +21,7 @@ def fizzBuzz(num)
 end
 fizzBuzz(12)
 
-#Version 2: A program that takes a number and returns an error if the input
-#is a non-numeric value, a string value or an invalid integer.
+#Version 2: A program that takes a number and returns an error if the input is a non-numeric value, a string value or an invalid integer.
 
 def fizzBuzz
     puts "Enter a valid number between 0 and 100:"
