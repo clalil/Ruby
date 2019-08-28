@@ -2,6 +2,4 @@
 
 def unique_in_order(iterable)
     iterable.squeeze().split('')
-    #squeeze() method returns a new string where re-occurring characters are replaced by a single character.
-    #split('') works similarly to JS split where the method divides the given string into substrings based on a delimiter, returning an array of these substrings.
   end
