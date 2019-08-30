@@ -2,6 +2,4 @@
 
 def binary_array_to_number(arr)
     integer = Integer((arr.join()), 2)
-    #convert array into string
-      #use built-in Integer method to convert string numbers into integer and binary
-  end 
+end 
